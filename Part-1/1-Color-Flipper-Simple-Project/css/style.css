@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.nav-center{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: skyblue;
+    background-color: white;
+    height: 100px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    flex-wrap: wrap;
+    font-size: bold;
+    text-transform: capitalize;
+}
+
+
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+    font-size: bold;
+    text-transform: capitalize;
+    
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: skyblue;
+}
+
+main{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container h2{
+    background-color:black;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+}
+
+.container .color{
+    color: skyblue;
+}
+
+.container .btn{
+    border: solid black 2px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding:  10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 510;
+    letter-spacing: 2px;
+}
+
+.container .btn:hover{
+background-color: black;
+color: white;
+}
+
+

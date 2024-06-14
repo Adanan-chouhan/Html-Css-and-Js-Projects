@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.section-center{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 120px;
+    padding-left: 180px;
+}
+
+
+.gift-img img{
+    width: 750px;
+    height: 500px;
+}
+
+.gift-info{
+    padding-left: 70px;
+    padding-right: 200px;
+}
+
+.gift-info h1{
+    color :  hsl(205, 72%, 37%);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.gift-info h2{
+    font-size: 30px;
+    text-transform: capitalize; 
+    color: hsl(209, 61%, 16%);
+}
+
+.gift-info p{
+     padding:10px 0;
+     font-size: 20px;
+     letter-spacing: 0.10rem;
+    text-transform: capitalize;
+    color: gray;
+}
+
+
+
+.deadline{
+    display: flex;
+}
+
+
+.deadline {
+    display: flex;
+  }
+ 
+  .deadline-format {
+    background: hsl(209, 61%, 16%);;
+    color: white;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .deadline-format span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+  }
+  .deadline h4:not(.expired) {
+    font-size: 2rem;
+    margin-bottom: 0.25rem; 
+    letter-spacing: 0.25rem;
+  }

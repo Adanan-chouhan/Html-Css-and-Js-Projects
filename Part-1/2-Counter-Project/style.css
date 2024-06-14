@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: bold;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+#value{
+font-size: 70px;
+}
+
+
+.button-container .btn{
+    text-transform: uppercase;
+    padding: 5px 5px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    letter-spacing: 2px;
+    font-size: bold;
+    cursor: pointer;
+}
+
+.button-container .btn:hover{
+    background-color: black;
+    color: white;
+}
